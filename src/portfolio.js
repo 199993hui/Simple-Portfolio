@@ -18,7 +18,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/199993hui",
-  linkedin: "linkedin.com/in/lee-hui-ying",
+  linkedin: "https://linkedin.com/in/lee-hui-ying",
   gmail: "huiyinglee_99@student.usm.my",
   facebook: "https://www.facebook.com/lee.huiying.37/",
 };
@@ -89,19 +89,47 @@ const skillsSection = {
       },
     },
     {
-      skillName: "HTML, CSS, PHP",
-      classname: "vscode-icons:file-type-jenkins",
+      skillName: "html",
+      classname: "logos:git-icon",
       style: {
         backgroundColor: "transparent",
       },
     },
     {
-      skillName: "SQL, MySQL, Oracle Apex",
-      classname: "logos:postgresql",
+      skillName: "css",
+      classname: "logos:git-icon",
       style: {
         backgroundColor: "transparent",
       },
     },
+    {
+      skillName: "php",
+      classname: "logos:git-icon",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "mysql",
+      classname: "logos:git-icon",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "oracle",
+      classname: "logos:git-icon",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    // {
+    //   skillName: "SQL, MySQL, Oracle Apex",
+    //   classname: "logos:postgresql",
+    //   style: {
+    //     backgroundColor: "transparent",
+    //   },
+    // },
     {
       skillName: "AWS",
       classname: "logos:postgresql",
@@ -117,7 +145,14 @@ const skillsSection = {
       },
     },
     {
-      skillName: "Adobe",
+      skillName: "Photoshop",
+      classname: "logos:postgresql",
+      style: {
+        backgroundColor: "transparent",
+      },
+    },
+    {
+      skillName: "Illustrator",
       classname: "logos:postgresql",
       style: {
         backgroundColor: "transparent",
@@ -165,7 +200,7 @@ const skillsSection = {
 // Your top 3 work experiences
 
 const workExperiences = {
-  viewExperiences: false, //Set it to true to show workExperiences Section
+  viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Python Developer Intern",
