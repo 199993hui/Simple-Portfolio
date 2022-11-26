@@ -18,7 +18,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/199993hui",
-  linkedin: "linkedin.com/in/lee-hui-ying",
+  linkedin: "https://linkedin.com/in/lee-hui-ying",
   gmail: "huiyinglee_99@student.usm.my",
   facebook: "https://www.facebook.com/lee.huiying.37/",
 };
