@@ -21,6 +21,8 @@ export default function Blogs() {
                   url: blog.url,
                   image: blog.image,
                   title: blog.title,
+                  subtitle: blog.subtitle,
+                  date: blog.date,
                   description: blog.description
                 }}
               />

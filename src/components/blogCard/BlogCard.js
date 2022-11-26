@@ -18,8 +18,9 @@ export default function BlogCard({ blog }) {
           onClick={() => openUrlInNewTab(blog.url)}
         >
           <a className="blog-card" href="#blog">
-            <h3 className="blog-title">{blog.title}</h3>
-            <p className="small">{blog.description}</p>
+            <h2 className="blog-title">{blog.title}</h2>
+            <h3 className="small"><span>{blog.subtitle}</span>
+            <span className="date">{blog.date}</span></h3>
             <div className="go-corner">
               <div className="go-arrow">→</div>
             </div>
