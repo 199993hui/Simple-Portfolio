@@ -1,6 +1,7 @@
 import React from "react";
 import "./SoftwareSkill.css";
 import { skillsSection } from "../../portfolio";
+import { skillsImage } from '../../utils/skillsImage'
 
 export default function SoftwareSkill() {
   return (
@@ -10,12 +11,13 @@ export default function SoftwareSkill() {
           {skillsSection.softwareSkills.map(skills => {
             return (
               <li className="software-skill-inline" name={skills.skillName}>
-                <span
+                {/* <span
                       className="iconify"
                       data-icon={skills.classname}
                       style={skills.style}
                       data-inline="false"
-                    ></span>
+                    ></span> */}
+                    <img src={skillsImage(skills.skillName)} alt={skills.skillName} height={50} width={50} />
                 <p>{skills.skillName}</p>
               </li>
             );
