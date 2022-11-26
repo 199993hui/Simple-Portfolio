@@ -3,8 +3,8 @@ import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import Blogs from "./blogs/Blogs";
-// import WorkExperience from "./workExperience/WorkExperience";
-// import Projects from "./projects/Projects";
+import WorkExperience from "./workExperience/WorkExperience";
+import Projects from "./projects/Projects";
 import Certifications from "./certifications/Certifications";
 import Profile from "./profile/Profile";
 import Footer from "../components/footer/Footer";
@@ -18,8 +18,8 @@ export default class Main extends Component {
         <Greeting />
         <Skills />
         <Blogs /> 
-        {/* <WorkExperience /> */}
-        {/* <Projects /> */}
+        <WorkExperience />
+        <Projects />
         <Certifications />
         <Profile />
         <Footer />
