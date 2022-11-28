@@ -27,13 +27,18 @@
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
-  color: #666666;
+  color: #06394f;
   padding: 0px 20px;
   overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  margin: 0px;
+  display: flex;
+    justify-content: space-between;
+}
+
+.date {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #46585f; 
 }
 
 .go-corner {
